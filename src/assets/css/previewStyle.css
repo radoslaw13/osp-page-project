@@ -1,0 +1,25 @@
+.imageWithHover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.imageWithHover:hover {
+    opacity: 0.5;
+}
+
+.wrapperToImg {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapperToImg:hover {
+    background-image: url('../../Images/galery_icon.png');
+    position: relative;
+    z-index: 2000;
+    width: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}

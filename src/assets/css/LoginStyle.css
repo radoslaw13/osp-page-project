@@ -1,0 +1,36 @@
+.mainDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.loginWrapper {
+    margin: 10% auto;
+    padding: 10px 45px;
+    background-color:  rgba(166, 166, 166, 0.4);
+    min-height: 100px;
+    max-height: 150px;
+    display: flex;
+    border-radius: 4px;
+}
+
+
+.form {
+    margin: auto;
+}
+
+.submitButton {
+    border-color: transparent;
+    background-color: rgba(166, 166, 166, 0.4);
+    border-radius: 4px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.buttonDiv {
+    display: flex;
+}

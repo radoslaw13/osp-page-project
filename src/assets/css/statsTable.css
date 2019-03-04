@@ -1,0 +1,19 @@
+.statsTable {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.tdMain {
+    padding: 0;
+}
+
+.tdSub {
+    padding: 0 0 0 1rem;
+}
+
+.tableWrapper {
+    margin: 5%;
+
+}

@@ -1,0 +1,14 @@
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 30vw;
+    border-radius: 4px;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .each-slide > div {
+      background: "red"
+    }
+  }
