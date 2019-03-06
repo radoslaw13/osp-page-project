@@ -20,12 +20,12 @@ class UserPage extends Component {
                 <div>
                     <Menu />
                     <Slideshow />
-                    <Route exact path="osp-page-project/" component={MainPage} />
-                    <Route path="osp-page-project/article/:id" component={Article} />
-                    <Route path="osp-page-project/cars" component={CarsPage} />
-                    <Route path="osp-page-project/history" component={HistoryPage} />
-                    <Route path="osp-page-project/galery" component={GaleryPage} />
-                    <Route path="osp-page-project/stats" component={StatsPage} />
+                    <Route exact path="/osp-page-project/" component={MainPage} />
+                    <Route path="/osp-page-project/article/:id" component={Article} />
+                    <Route path="/osp-page-project/cars" component={CarsPage} />
+                    <Route path="/osp-page-project/history" component={HistoryPage} />
+                    <Route path="/osp-page-project/galery" component={GaleryPage} />
+                    <Route path="/osp-page-project/stats" component={StatsPage} />
                     <Footer />
                 </div>
             </Router>
