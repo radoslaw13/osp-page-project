@@ -35,7 +35,7 @@ class NewsCards extends Component {
                                         </Typography>
                                     </CardContent>
                                     <div style={{position: "absolute", right: "0", bottom: "0", margin: "10px"}} >
-                                        <Link style={{textDecoration: "none"}} to={{pathname: '/article/' + this.props.id}}>
+                                        <Link style={{textDecoration: "none"}} to={{pathname: '/osp-page-project/article/' + this.props.id}}>
                                             <Button >Czytaj dalej</Button>
                                         </Link>
                                     </div>

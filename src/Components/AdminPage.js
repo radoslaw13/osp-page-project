@@ -41,9 +41,9 @@ class AdminPage extends Component {
             <Router history={history}>
                 <div>
                     <AdminAppBar />
-                    {this.props.userIsLogged ? <Route history={history} exact path="/admin" component={ManagePosts} /> : <Route component={AdminLogin} />}
-                    {this.props.userIsLogged ? <Route history={history} exact path="/admin/dodaj" component={Add} /> : null}
-                    {this.props.userIsLogged ? <Route history={history} exact path="/admin/edit/:id" component={Edit} /> : null}
+                    {this.props.userIsLogged ? <Route history={history} exact path="/osp-page-project/admin" component={ManagePosts} /> : <Route component={AdminLogin} />}
+                    {this.props.userIsLogged ? <Route history={history} exact path="/osp-page-project/admin/dodaj" component={Add} /> : null}
+                    {this.props.userIsLogged ? <Route history={history} exact path="/osp-page-project/admin/edit/:id" component={Edit} /> : null}
                 </div>
             </Router>
         )

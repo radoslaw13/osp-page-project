@@ -13,7 +13,7 @@ class SimpleMenuButton extends React.Component {
 
   render() {
     return (
-        <Link style={{textDecoration: "none", width: "100%", margin: "0 auto"}} to={`/${this.props.path}`} >
+        <Link style={{textDecoration: "none", width: "100%", margin: "0 auto"}} to={`/osp-page-project/${this.props.path}`} >
           <Button
             fullWidth={true}
             onClick={() => {this.scrollToHeight()}}

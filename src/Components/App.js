@@ -20,9 +20,8 @@ class App extends Component {
       <Provider store={store} >
         <Router>
           <div className="App">
-          <UserPage />
-            <Route exact path="/" component={UserPage} />
-            <Route exact path="/admin" component={AdminPage} />
+            <Route exact path="/osp-page-project/" component={UserPage} />
+            <Route exact path="/osp-page-project/admin" component={AdminPage} />
           </div>
         </Router>
       </Provider>

@@ -31,7 +31,7 @@ class ManagePostPanel extends Component {
                             </Typography>
                         </Grid>
                         <Grid item md={1} lg={1} xs={2}>
-                            <Link to={{pathname: '/admin/edit/' + this.props.id}} >
+                            <Link to={{pathname: '/osp-page-project/admin/edit/' + this.props.id}} >
                                 <Button ><img className="iconButton" src={editIcon} alt="Edytuj post" /></Button>
                             </Link>
                         </Grid>

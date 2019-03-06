@@ -87,7 +87,7 @@ class Article extends Component {
                             <Grid item md={7} lg={7} xs={12} >
                                 <Typography variant="body1" component="div">{this.state.articleData.description}</Typography>
                                 <div style={ArticleStyle.backButtonDiv}>
-                                    <Link style={{textDecoration: "none"}} to="/">
+                                    <Link style={{textDecoration: "none"}} to="/osp-page-project/">
                                         <Button>Powrót</Button>
                                     </Link>
                                 </div>

@@ -6,7 +6,7 @@ class Logo extends Component {
     render () {
         return (
             <div className="logo-container" style={{maxWidth: "300px", margin: "0 auto", display: "block"}} >
-                <Link to="/"><img src={logo} alt={"logo"}  width="100%"  ></img></Link>
+                <Link to="/osp-page-project/"><img src={logo} alt={"logo"}  width="100%"  ></img></Link>
             </div>
         )
     }

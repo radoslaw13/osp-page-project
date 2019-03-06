@@ -80,7 +80,7 @@ class ManagePosts extends Component {
                         </Typography>
                     </Grid>
                     <Grid item md={12} lg={12} xs={12} style={{marginBottom: "2%"}} >
-                        <Link to="/admin/dodaj" style={{textDecoration: "none", color: "white"}}>
+                        <Link to="/osp-page-project/admin/dodaj" style={{textDecoration: "none", color: "white"}}>
                             <Button fullWidth={true}>Dodaj nowy post</Button>
                         </Link>
                     </Grid>

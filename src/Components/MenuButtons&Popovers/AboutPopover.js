@@ -57,11 +57,11 @@ class AboutPopover extends Component {
               style={{width: this.state.anchorEl ? this.state.anchorEl.offsetWidth : null + 'px', left: this.state.anchorEl ? this.state.anchorEl.offsetLeft : null + "px"}}
             >
               <MenuList>
-              <Link to="/history" style={{textDecoration: "none"}} >
+              <Link to="/osp-page-project/history" style={{textDecoration: "none"}} >
                   <MenuItem style={{display: "block", textAlign: "center"}} onClick={this.handleClose}>Historia</MenuItem>
                 </Link>
                 <MenuItem style={{display: "block", textAlign: "center"}} onClick={this.handleClose}>Zarząd OSP</MenuItem>
-                <Link to="/cars" style={{textDecoration: "none"}} >
+                <Link to="/osp-page-project/cars" style={{textDecoration: "none"}} >
                   <MenuItem style={{display: "block", textAlign: "center"}} onClick={this.handleClose}>Sprzęt</MenuItem>
                 </Link>
               </MenuList>

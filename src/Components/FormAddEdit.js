@@ -255,7 +255,7 @@ class AddEdit extends Component {
                         </Grid>
                         <Grid item md={12} lg={12} xs={12} className="gridItem" >
                             <div style={{display: 'block', margin: "0 auto"}}>
-                                <Link to="/admin" style={{textDecoration: "none", color: "white", height: "100%"}}>
+                                <Link to="/osp-page-project/admin" style={{textDecoration: "none", color: "white", height: "100%"}}>
                                     <Button variant="outlined">Anuluj</Button>
                                 </Link>
                                 <Button >
